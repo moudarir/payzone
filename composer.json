@@ -1,0 +1,32 @@
+{
+  "name": "moudarir/payzone",
+  "description": "PHP library for integration with the Payzone payment gateway in a fast and simple way.",
+  "keywords": [
+    "php",
+    "Payzone",
+    "SDK",
+    "library"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "config": {
+    "platform":{
+      "php": "7.2"
+    },
+    "bin-dir": "vendor/bin"
+  },
+  "authors": [
+    {
+      "name": "Abdessamad MOUDARIR",
+      "email": "amoudarir@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Moudarir\\Payzone\\": "src/"
+    }
+  }
+}
